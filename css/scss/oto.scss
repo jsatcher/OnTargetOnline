@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import "mixins.scss";
+@import "variables.scss";
+@import "rem.scss";
+//@include rem(property, value in rem or px);
+
+*[role="textButton"] {
+  text-decoration: none;
+}
+
+#logoGradient {
+  @include logo_gradient;
+  @include rem(height, 4rem);
+  display: flex;
+  align-items: center;
+}
+
+#logoText {
+  color: white;
+}
+
+#mainContent {
+  //margin: 0 1em 1em 1em;
+}
+
+.contentMargin {
+  @include rem(margin, 0 1.5rem);
+}

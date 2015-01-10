@@ -22,4 +22,17 @@
   margin: 0 24px;
   margin: 0 1.5rem; }
 
+.buttonColor1 {
+  background-color: black; }
+
+.buttonColor2 {
+  background-color: blue; }
+
+.buttonColor3 {
+  background-color: red; }
+
+.buttonColor4 {
+  background-color: yellow;
+  color: black; }
+
 /*# sourceMappingURL=oto.css.map */

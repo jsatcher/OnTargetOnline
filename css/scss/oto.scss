@@ -27,3 +27,21 @@
 .contentMargin {
   @include rem(margin, 0 1.5rem);
 }
+
+.buttonColor1 {
+  background-color: $logo_gradient_color1;
+}
+
+.buttonColor2 {
+  background-color: $logo_gradient_color2;
+}
+
+.buttonColor3 {
+  background-color: $logo_gradient_color3;
+}
+
+.buttonColor4 {
+  background-color: $logo_gradient_color4;
+  color: black;
+}
+
